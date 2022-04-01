@@ -1,0 +1,32 @@
+@charset "UTF-8"
+
+body {
+    background-color: bisque;
+    font-size: 20;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 30;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+}
+
+h2 {
+    font-size: 20;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+}
+
+h3 {
+    font-size: 15;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: yellowgreen;
+}
+
+p {
+    font-size: 12;
+    font-family: Arial, Helvetica, sans-serif
+    color: black;
+    text-align: justify;
+}

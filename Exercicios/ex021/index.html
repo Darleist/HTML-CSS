@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liks para sites</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        a {
+            text-decoration: none;
+            color: brown;
+            font-weight: bold;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: blueviolet;
+        }
+         
+        a::after {
+            color: black;
+            content: ' [boas opções]';
+        }
+
+        .especial::after {
+            content:' [sugerido pelo autor]';
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Diferentes links para sites</h1>
+    <li><a href="https://www.youtube.com/c/HojenoMundoMilitar" target="_blank" class="especial">Canal Hoje no Mundo Militar</a></li>
+    <li><a href="https://www.youtube.com/c/JulianoCaju" target="_blank">Canal de mineração</a></li>
+    <li><a href="https://www.youtube.com/c/manualdomundo" target="_blank">Canal Manual do Mundo</a></li>
+</body>
+</html>

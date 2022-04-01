@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'admirer';
+    src: url(fonts/Secret-Admirer.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'breadley';
+    src: url(fonts/BreadleySans-Regular.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+
+}
+body {
+    background-color: blueviolet;
+}
+main {
+    background-color: white; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #011640;
+    width: 600px;
+    padding: 50px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    font-family: 'admirer', Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+    text-align: center;
+}
+
+h1#principal {
+    background-color: #011640;
+}
+
+h2 {
+    font-family: 'admirer', Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: normal;
+    text-align: center;
+}
+
+p {
+    font-family: 'breadley', Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+
+.basico {
+    background-color: #537FA6;
+    font-weight: bold;
+    color: brown;
+}
+
+.intermediario {
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
