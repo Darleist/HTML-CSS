@@ -56,11 +56,12 @@ main section {
 main section.book {
     background-image: url(projeto-cordel-master/imagens/background002.jpg);
     background-color: rgba(0, 0, 0, 0.493);
-    background-position: center center;
+    background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.336);
 }
 main section.book >p {
     background-color: rgba(0, 0, 0, 0.445);
@@ -70,11 +71,12 @@ main section.book >p {
 main section.flower {
     background-image: url(projeto-cordel-master/imagens/background001.jpg);
     background-color: rgba(0, 0, 0, 0.493);
-    background-position: unset;
+    background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: inherit;
+    background-attachment: fixed;
     color: white;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.336);
 }
 main section.flower > p {
     background-color: rgba(0, 0, 0, 0.445);
