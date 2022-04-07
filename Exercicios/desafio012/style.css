@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -18,7 +20,7 @@ header {
     
 }
  header > h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Passion One', cursive;
     font-variant: small-caps;
     font-size: 4em;
     font-weight: bold;
@@ -29,7 +31,7 @@ header > p {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     
-    font-size: 1.5em;
+    font-size: 4.5vw;
 }
 header p>a {
     text-decoration: none;
@@ -44,10 +46,11 @@ header p>a:hover {
     background-color: white;
     color: black;
 }
-main section p {
-    font-size: 2.5em;
+main section {
+    font-size: 4.5vw;
     line-height: 175%;
     padding: 40px;
+    font-family: 'Sriracha', cursive;
 
 }
 main section.book {
@@ -62,6 +65,7 @@ main section.book {
 main section.book >p {
     background-color: rgba(0, 0, 0, 0.445);
     width: fit-content;
+    padding: 10px;
 }
 main section.flower {
     background-image: url(projeto-cordel-master/imagens/background001.jpg);
@@ -75,6 +79,7 @@ main section.flower {
 main section.flower > p {
     background-color: rgba(0, 0, 0, 0.445);
     width: fit-content;
+    padding: 10px;
 }
 footer {
     background-color: black;
