@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table {
+            width: 400px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        table, th, td, tr {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
+        }
+        thead {
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de células</h1>
+    <table>
+        <thead>
+            <th colspan="3">Misturando</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td colspan="2">2</td>
+
+            </tr>
+            <tr>
+                <td rowspan="3">4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+
+                <td>8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+
+                <td>11</td>
+                <td>12</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
